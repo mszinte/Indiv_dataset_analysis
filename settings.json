@@ -1,0 +1,22 @@
+{
+    "TR": 1.5,
+    "screen_distance" : 225,
+    "screen_width" : 69.8,
+    "n_timepoints_per_run" : 120,
+    "aeneas_base_folder": "/home/shared/2018/visual/nprf_indiv",
+    "lisa_cluster_base_folder": "/home/szinte/data/nprf_indiv",
+    "stim_width": 17.8,
+    "stim_height": 10.0,
+    "rois": ["V1", "V2", "V3", "VO", "DO", "LO", "SUP_PAR", "TPJ", "sPCS", "iPCS", "mPCS", "INS", "DLPFC", "ANG", "MED_PAR", "SUP_MED_FR", "LAT_TEMP"],
+    "early_vis_rois" :["V1", "V2", "V3", "VO", "DO", "LO"],
+    "late_vis_rois": ["SUP_PAR", "TPJ", "sPCS", "iPCS", "mPCS", "INS", "DLPFC"],
+    "dmn_rois": ["ANG", "MED_PAR", "SUP_MED_FR", "LAT_TEMP"],
+    "fit_step":6,
+    "size_threshold": 0.10,
+    "rsq_threshold": 0.2,
+    "cov_threshold": 0.2,
+    "subject_list": ["sub-01","sub-02"],
+    "sg_filt_window_length": 211,
+    "sg_filt_polyorder": 3,
+    "sg_filt_deriv": 0
+}
